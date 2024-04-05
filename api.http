@@ -1,0 +1,43 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+
+{
+    "title": 2,
+    "details": null,
+    "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/e7f92c1a-1479-46ff-832d-3aac2c383027/attendees
+Content-Type: application/json
+
+
+{
+    "name": "Joao Oliveira",
+    "email": "joaovitorwoliveira4@gmail.com"
+}
+
+
+###
+
+GET http://localhost:3333/events/e7f92c1a-1479-46ff-832d-3aac2c383027
+
+
+
+####
+
+GET http://localhost:3333/attendees/5/badge
+
+
+###
+
+GET http://localhost:3333/attendees/5/check-in
+
+
+###
+
+GET http://localhost:3333/events/e7f92c1a-1479-46ff-832d-3aac2c383027/attendees?query=Joao
+
+
