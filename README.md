@@ -6,23 +6,37 @@ A ferramenta permite que o organizador cadastre um evento e abra uma página pú
 
 Os participantes inscritos podem emitir uma credencial para check-in no dia do evento.
 
-## Requisitos
+O projeto foi feito com o em um Evento da Rocketseat e tem o intuito de etudo das tecnologias presentes.
 
-### Requisitos funcionais
+## Tecnologias utilizadas
 
-- [] O organizador deve poder cadastrar um novo evento;
-- [] O organizador deve poder visualizar dados em um evento;
-- [] O organizador deve poder visualizar a lista de participantes;
-- [] O participante deve poder se inscrever em um evento;
-- [] O participante deve poder visualizar seu crachá de inscrição;
-- [] O participante deve poder realizar check-in no evento;
+- Node.js
+- TypeScript
+- Fastify
+- Zod
 
-### Regras de negócio
+## Instalação
 
-- [] O participante só pode se inscrever em um evento uma única vez;
-- [] O participante só pode se inscrever em eventos com vagas disponíveis;
-- [] O participante só pode realizar check-in em um evento uma única vez;
+1. Clone o repositório:
 
-### Requisitos não-funcionais
+git clone "https://github.com/joaovitorwoliveira/pass.in.git"
 
-- [] o check-in no evento será realizado através de um QRCode;
+2. Instale as dependências:
+
+npm install
+
+3. Inicie o servidor:
+
+npm run dev
+
+ou
+
+npm run build && npm run start
+
+## Uso
+
+Você pode encontrar toda a documentação da API organizada com o Swagger, incluindo as rotas, no endereço: [http://localhost:3333/docs](http://localhost:3333/docs)
+
+## Contribuição
+
+Este projeto não aceita contribuições pois não tem o intuito de ser desenvolvido. Ele foi criado apenas para estudos.
