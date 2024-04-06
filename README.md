@@ -6,7 +6,7 @@ A ferramenta permite que o organizador cadastre um evento e abra uma página pú
 
 Os participantes inscritos podem emitir uma credencial para check-in no dia do evento.
 
-O projeto foi feito com o em um Evento da Rocketseat e tem o intuito de etudo das tecnologias presentes.
+O projeto foi desenvolvido em um Evento da Rocketseat e tem o intuito de estudar as tecnologias utilizadas.
 
 ## Tecnologias utilizadas
 
