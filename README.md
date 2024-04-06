@@ -13,7 +13,9 @@ O projeto foi desenvolvido em um Evento da Rocketseat e tem o intuito de estudar
 - Node.js
 - TypeScript
 - Fastify
+- Prisma
 - Zod
+- SQlite
 
 ## Instalação
 
